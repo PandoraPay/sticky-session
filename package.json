@@ -1,12 +1,12 @@
 {
   "name": "sticky-session",
-  "description": "Sticky session balancer based on a `cluster` module",
+  "description": "Sticky session balancer based on a `cluster` module. Updated for PandoraPay",
   "version": "1.1.2",
-  "author": "Fedor Indutny <fedor.indutny@gmail.com>",
+  "author": "Budisteanu Ionut Alexandru",
   "main": "./lib/sticky-session",
   "dependencies": {
-    "debug": "^2.2.0",
-    "ip": "^1.0.0"
+    "debug": "^4.1.1",
+    "ip": "^1.1.5"
   },
   "engines": {
     "node": ">= 0.12.0"
